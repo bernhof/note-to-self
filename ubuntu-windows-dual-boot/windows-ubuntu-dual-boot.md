@@ -5,7 +5,7 @@
 
 There are lots of guides on installing Ubuntu alongside Windows 10. For my future self and others who may stumble across it, here's yet another one that attempts to gather all the information that I found useful while setting this up - **including enabling encryption for the Ubuntu partition**.
 
-To me, as a consultant having signed countless NDAs, that encryption part is especially important.
+To me, as a consultant having signed countless NDAs, that encryption part is especially important, but wasn't exactly straight forward.
 
 *This guide, for the most part, covers things that aren't  specifically related to Ubuntu, so it is likely relevant for a number of other Linux distros as well.*
 
@@ -18,6 +18,7 @@ This guide assumes the Windows partition is already protected with BitLocker.
 In high-level terms, here's how I got this working (more details in dedicated sections below)
 
 1. **Install Windows 10 first**
+    * Always start with Windows, then Ubuntu
     * If installing fresh, make room for Ubuntu at install time (and skip step 2 🎉)
 2. **Make room for Ubuntu**
     * I chose to split the disk ~50/50
