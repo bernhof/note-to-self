@@ -38,7 +38,7 @@ Ubuntu is happy to be installed alongside Windows. The other way around; not so 
 
 If you've already got Windows installed and would like to keep that installation as is, then continue on to [step two](#make-room-for-ubuntu) for tips on how to make this happen.
 
-If you're installing Windows 10 fresh, then make room for Ubuntu already at install time, and skip to [step three]().
+If you're installing Windows 10 fresh, then make room for Ubuntu already at install time, and skip to [step three](#prepare-installation-media-usb).
 
 ## Make room for Ubuntu
 
@@ -48,9 +48,17 @@ For this, open **Disk Management** (diskmgmt.msc) in Windows and shrink one or m
 
 ### Unmovable files?
 
-You may run into trouble with unmovable files preventing you from shrinking a volume (I did!). By following [this HowToGeek guide for Windows Vista](1) (which works fine for Windows 10 as well) I successfully got around this issue and freed up space for Ubuntu. So far so good.
+You may run into trouble with unmovable files preventing you from shrinking a volume (I did!). By following [this HowToGeek guide for Windows Vista][1] (which works fine for Windows 10 as well) I successfully got around this issue and freed up space for Ubuntu. So far so good.
 
 (As mentioned on HowToGeek, I also had to defragment the disk. I used a 30-day trial of Perfect Disk, but any other disk optimizer will likely do just fine.)
+
+## Prepare installation media (USB)
+
+Get the relevant ISO and create installation media on a USB stick. Read more here:
+* [Universal USB Installer](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/)
+* [Etcher](https://www.omgubuntu.co.uk/2016/10/make-bootable-ubuntu-1610-usb-install-drive-6-easy-steps)
+
+Also, make sure the USB is picked up as a bootable device; this may need to be configured in the BIOS.
 
 ## Disable Secure Boot in BIOS
 
@@ -75,14 +83,6 @@ Open the policy **"Require additional authentication at startup"** and set it up
 ### Disable Secure Boot in BIOS
 
 I found [this screenshot guide useful][4].
-
-## Prepare installation media (USB)
-
-Get the relevant ISO and create installation media on a USB stick. Read more here:
-* [Universal USB Installer](https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/)
-* [Etcher](https://www.omgubuntu.co.uk/2016/10/make-bootable-ubuntu-1610-usb-install-drive-6-easy-steps)
-
-Also, make sure the USB is picked up as a bootable device; this may need to be configured in the BIOS.
 
 ## Using Intel Rapid Storage Technology? (RST)
 
