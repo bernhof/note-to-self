@@ -19,7 +19,7 @@ This seemed to work great in Visual Studio. Hundreds of thousands of rows loaded
 
 ## What worked for me
 
-I found that if I simply limited the data flows to only two concurrent connections/OData Sources at a time, the package didn't fail.
+I found that the endpoint only seemed to allow two concurrent connections for any prolonged period of time. If I simply limited the data flows to only two concurrent connections/OData Sources at a time, the connections weren't dropped.
 
 In the end I had to do this the simplest possible way: Add a data flow task for every two OData sources, as such:
 
